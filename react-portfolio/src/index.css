@@ -36,11 +36,11 @@
     position: relative;
   }
   .card0 {
-    background: url("../images/shane_faith.new.jpg") center center no-repeat;
+    background: url("../src/images/shane_faith.new.jpg") center center no-repeat;
     background-size: 450px;
   }
   .card0:hover {
-    background: url("../images/shane_faith.new.jpg") left top no-repeat;
+    background: url("../src/images/shane_faith.new.jpg") left top no-repeat;
     background-size: 700px;
   }
   .card0:hover h2 {
