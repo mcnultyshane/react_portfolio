@@ -9,7 +9,7 @@ function About() {
                 <div className="container photo-container">
                     <div className="card card0">
                         <div className="border">
-
+                        <h3>Hi Faith!</h3>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
-  margin: 10px;
+  margin: 100px;
   opacity: 0;
   transition: opacity 1s;
 }
@@ -9,6 +9,7 @@ h3 {
 h2 {
   font-family: 'Playfair Display', serif;
 }
+
 .photo-container {
   height: 100vh;
   width: 100vw;
@@ -21,9 +22,6 @@ h2 {
   align-items: center;
   margin: 0 auto;
 }
-
-
-
 .border {
   height: 275px;
   width: 375px;
@@ -64,8 +62,6 @@ h2 {
   opacity: 1;
 }
 
-
-
 .wrapper {
   padding-top: 50px;
   justify-content: space-around;
@@ -95,7 +91,6 @@ h2 {
   margin-bottom: 20px;
   background-color: var(--white);
 }
-
 .card .content {
   font-size: 18px;
   font-weight: bold;
@@ -105,23 +100,17 @@ h2 {
   font-family: 'Playfair Display', serif;
   margin-top: 10px;
 }
-
 .proj-icons-container {
   background-color: white;
 }
-
 .project-icon {
   background-color: white;
   padding: 5px;
-
 }
-
 .topics {
   font-family: 'Inter', sans-serif;
-
   font-size: small;
 }
-
 .footer {
   display: flex;
   align-items: center;
