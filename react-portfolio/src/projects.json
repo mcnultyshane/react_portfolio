@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Movie Shelf",
+        "image": "https://raw.githubusercontent.com/mcnultyshane/movie_shelf/main/images/screencapture-yourmovieshelf-herokuapp-shelf-search-2021-07-24-13_18_23.jpg",
+        "deploy": "https://yourmovieshelf.herokuapp.com",
+        "github": "https://github.com/mcnultyshane/movie_shelf",
+        "topics": "Full Stack Application"
+    },
+    {
+        "id": 2,
+        "name": "Artists & Bands",
+        "image": "https://raw.githubusercontent.com/Keith-L-Watford/artists-and-bands/main/assets/images/mobile.png",
+        "deploy": "https://mcnultyshane.github.io/artists-and-bands/",
+        "github": "https://github.com/mcnultyshane/artists-and-bands",
+        "topics": ""
+    },
+    {
+        "id": 3,
+        "name": "Techno Chronicles",
+        "image": "https://raw.githubusercontent.com/mcnultyshane/MVC_tech_blog/main/images/homepage-screencapture.jpg",
+        "deploy": "https://tech-blog--s.herokuapp.com/",
+        "github": "https://github.com/mcnultyshane/MVC_tech_blog",
+        "topics": ""
+    },
+    {
+        "id": 4,
+        "name": "Budget Tracker",
+        "image": "https://raw.githubusercontent.com/mcnultyshane/budget_trackers/main/public/assets/images/screencap-1.jpg",
+        "deploy": "https://budget-tracker--s.herokuapp.com/",
+        "github": "https://github.com/mcnultyshane/budget_trackers",
+        "topics": "Progressive Web Application"
+    },
+    {
+        "id": 5,
+        "name": "Weather Dashboard",
+        "image": "https://raw.githubusercontent.com/mcnultyshane/weather_dashboard/main/assets/images/full-display.jpg",
+        "deploy": "",
+        "github": "",
+        "topics": ""
+    }
+]
