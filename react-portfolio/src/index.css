@@ -75,6 +75,16 @@ h2 {
     justify-content: space-around;
   }
    */
+.wrapper {
+  padding-top: 50px;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  flex-flow: row wrap;
+  padding: 10px;
+  align-content: flex-start;
+}
 .card {
   border-radius: 5px;
   margin: 2rem;
@@ -88,14 +98,41 @@ h2 {
   border-radius: 10px;
   background-color: var(--white);
 }
+.card .img-container img {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 20px;
+  background-color: var(--white);
+}
 
-.wrapper {
-  padding-top: 50px;
-  justify-content: space-around;
-  height: 100%;
+.card .content {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-title {
+  margin-top: 10px;
+}
+
+.proj-icons-container {
+  background-color: white;
+}
+
+.project-icon {
+  background-color: white;
+  padding: 5px;
+
+}
+
+.topics {
+  font-size: small;
+}
+
+.footer {
   display: flex;
-  overflow: auto;
-  flex-flow: row wrap;
-  padding: 10px;
-  align-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  padding: 5px;
 }
