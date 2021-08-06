@@ -5,7 +5,7 @@
         "image": "https://raw.githubusercontent.com/mcnultyshane/movie_shelf/main/images/screencapture-yourmovieshelf-herokuapp-shelf-search-2021-07-24-13_18_23.jpg",
         "deploy": "https://yourmovieshelf.herokuapp.com",
         "github": "https://github.com/mcnultyshane/movie_shelf",
-        "topics": "Full Stack Application"
+        "topics": "Full Stack | Express | Handlebars.js | Sequelize | MySQL"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "image": "https://raw.githubusercontent.com/Keith-L-Watford/artists-and-bands/main/assets/images/mobile.png",
         "deploy": "https://mcnultyshane.github.io/artists-and-bands/",
         "github": "https://github.com/mcnultyshane/artists-and-bands",
-        "topics": ""
+        "topics": "Javascript | CSS Frameworks | API Calls"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "image": "https://raw.githubusercontent.com/mcnultyshane/MVC_tech_blog/main/images/homepage-screencapture.jpg",
         "deploy": "https://tech-blog--s.herokuapp.com/",
         "github": "https://github.com/mcnultyshane/MVC_tech_blog",
-        "topics": ""
+        "topics": "Model View Controller | Handlebars.js | Sequelize | Express"
     },
     {
         "id": 4,
@@ -35,8 +35,16 @@
         "id": 5,
         "name": "Weather Dashboard",
         "image": "https://raw.githubusercontent.com/mcnultyshane/weather_dashboard/main/assets/images/full-display.jpg",
-        "deploy": "",
-        "github": "",
-        "topics": ""
+        "deploy": "https://mcnultyshane.github.io/weather_dashboard/",
+        "github": "https://github.com/mcnultyshane/weather_dashboard",
+        "topics": "Server-side API's | Local Storage"
+    },
+    {
+        "id": 6,
+        "name": "Express Note Taker",
+        "image": "https://photos.google.com/search/_tra_/photo/AF1QipPy8OSfYtCIFTnC-gzWC2BOQZh7uTy2iVwvKJZC",
+        "deploy": "https://gentle-headland-78161.herokuapp.com/",
+        "github": "https://github.com/mcnultyshane/note-taker-express",
+        "topics": "Express | JSON Data"
     }
 ]

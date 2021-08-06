@@ -1,24 +1,118 @@
+:root {
+  --dark-blue: #023047;
+  --mustard: #ffb703;
+  --orange: #fb8500;
+  --light-blue: #219ebc;
+
+}
+html,
+body {
+  background-color: var(--orange);
+  min-height: 100%;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: var(--dark-blue);
+  
+}
 h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 100px;
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 1s; 
+
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+p{
+  font-size: large;
+}
+form {
+  width: 50%;
 }
 
-h2 {
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: .8;
+}
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+.container {
+  background-color: var(--orange);
+  width: fit-content;
+}
+.nav {
+  background-color: var(--orange);
+  background: transparent;
+}
+
+.nav-item {
+  text-decoration: none;
+}
+.nav-tabs {
+  /* background-color: var(--mustard); */
+  background: transparent;
   font-family: 'Playfair Display', serif;
+  padding: 25px;
+
+}
+.nav-link active {
+  /* background-color: var(--mustard); */
+  background: transparent;
+  color: var(--dark-blue);
+  text-decoration: none;
+ 
 }
 
+.nav-link {
+  color: var(--dark-blue);
+  text-decoration: none;
+ 
+ 
+
+}
+.nav-div {
+  background-color: var(--orange);
+}
+.top-title {
+  
+  margin-top: 20px;
+}
 .photo-container {
-  height: 100vh;
-  width: 100vw;
-  max-height: 400px;
-  max-width: 1280px;
-  min-height: 350px;
-  min-width: 1000px;
-  display: inline-block;
-  justify-content: space-around;
+ 
+  /* min-width: 1000px; */
+  /* display: inline-block; */
+  /* justify-content: space-around; */
   align-items: center;
   margin: 0 auto;
 }
@@ -115,6 +209,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--dark-blue);
 }
 .icon {
   padding: 5px;

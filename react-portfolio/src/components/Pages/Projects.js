@@ -12,12 +12,14 @@ function ProjectCards(props) {
       <div className="content">
         <p className="card-title">{props.name}</p>
         <p class="topics">{props.topics}</p>
+        <hr></hr>
         <p class="proj-icons-container">
           <a href={props.github}>
             <img
               class="project-icons"
               src="https://img.icons8.com/material-rounded/48/000000/github.png"
               alt="Github Icon"
+              title="Github Link to Code"
             />{" "}
           </a>
           <a href={props.deploy}>
@@ -25,6 +27,7 @@ function ProjectCards(props) {
               class="project-icons"
               src="https://img.icons8.com/material-outlined/48/000000/link--v1.png"
               alt="Link Icon"
+              title="View Deployment"
             />{" "}
           </a>
         </p>
